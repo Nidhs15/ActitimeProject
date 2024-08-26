@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[DB Connected]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Logged In]]>
+    </line>
+    <line>
+      <![CDATA[test script passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged Out]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[DataBase Disconnected]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-20T09:13:28 IST" name="Default suite" finished-at="2024-08-20T09:13:49 IST" duration-ms="21537">
+    <groups>
+    </groups>
+    <test started-at="2024-08-20T09:13:28 IST" name="Default test" finished-at="2024-08-20T09:13:49 IST" duration-ms="21537">
+      <class name="com.Actitime.TestScripts.CreateCustomer">
+        <test-method is-config="true" signature="databaseConnection()[pri:0, instance:com.Actitime.TestScripts.CreateCustomer@3cebbb30]" started-at="2024-08-20T09:13:28 IST" name="databaseConnection" finished-at="2024-08-20T09:13:28 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DB Connected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databaseConnection -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.Actitime.TestScripts.CreateCustomer@3cebbb30]" started-at="2024-08-20T09:13:28 IST" name="launchBrowser" finished-at="2024-08-20T09:13:39 IST" duration-ms="10997" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Actitime.TestScripts.CreateCustomer@3cebbb30]" started-at="2024-08-20T09:13:39 IST" name="login" finished-at="2024-08-20T09:13:39 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged In]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCustomer()[pri:0, instance:com.Actitime.TestScripts.CreateCustomer@3cebbb30]" started-at="2024-08-20T09:13:39 IST" name="createCustomer" finished-at="2024-08-20T09:13:48 IST" duration-ms="8897" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test script passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Actitime.TestScripts.CreateCustomer@3cebbb30]" started-at="2024-08-20T09:13:48 IST" name="logout" finished-at="2024-08-20T09:13:49 IST" duration-ms="884" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged Out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Actitime.TestScripts.CreateCustomer@3cebbb30]" started-at="2024-08-20T09:13:49 IST" name="closeBrowser" finished-at="2024-08-20T09:13:49 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="databaseDisconnected()[pri:0, instance:com.Actitime.TestScripts.CreateCustomer@3cebbb30]" started-at="2024-08-20T09:13:49 IST" name="databaseDisconnected" finished-at="2024-08-20T09:13:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DataBase Disconnected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databaseDisconnected -->
+      </class> <!-- com.Actitime.TestScripts.CreateCustomer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
